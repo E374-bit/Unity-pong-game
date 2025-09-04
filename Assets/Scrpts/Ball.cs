@@ -12,7 +12,7 @@ public class PongBall : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         // Pick a random start direction
-        float x = Random.value < 0.5f ? -1f : 1f;
+        float x = Random.value < 0.5f ? -1f : 2f;
         float y = Random.Range(-0.7f, 0.7f);
         direction = new Vector2(x, y).normalized;
 
